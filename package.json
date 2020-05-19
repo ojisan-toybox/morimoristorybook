@@ -6,8 +6,14 @@
   "author": "sadness_ojisan <sadness.ojisan@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@storybook/addon-actions": "^5.3.18",
+    "@storybook/addon-links": "^5.3.18",
+    "@storybook/addons": "^5.3.18",
+    "@storybook/react": "^5.3.18",
     "@types/react": "^16.9.35",
     "@types/react-dom": "^16.9.8",
+    "babel-loader": "^8.1.0",
     "html-webpack-plugin": "^4.3.0",
     "ts-loader": "^7.0.4",
     "typescript": "^3.9.2",
@@ -17,5 +23,9 @@
   "dependencies": {
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
+  },
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   }
 }
